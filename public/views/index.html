@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello SQL!</title>
+    <!-- Styles -->
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> -->
+    <link rel="stylesheet"  href="vendors/pure-min.css"/>
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/clientapp.js"></script>
+</head>
+<body>
+  <div class="main pure-u-1-1">
+    <h1>SQL in Node!</h1>
+
+    <form id="sql-form" class="pure-form pure-form-aligned">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" />
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" />
+
+        <label for="zip_code">Zip code:</label>
+        <input type="text" id="zip_code" name="zip_code" />
+
+        <button id="submit-button">Save to DB!</button>
+    </form>
+    <ul class="people-list">
+
+    </ul>
+  </div>
+</body>
+</html>
